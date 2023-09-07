@@ -1,0 +1,849 @@
+,DOI.or.PMID,Authors,Year,Species,Assessment
+0,10.1016/j.brainres.2008.09.047,Pinzon et al.,2008,rats,BBB
+1,10.1016/j.expneurol.2013.06.023,Sharp et al,2013,rats,BBB
+2,10.1016/j.expneurol.2013.06.023,Sharp et al,2013,rats,grid walking test
+3,10.1016/j.expneurol.2013.06.023,Sharp et al,2013,rats,gait analysis
+4,10.1016/j.expneurol.2013.06.023,Sharp et al,2013,rats,mechanical reactivity
+5,10.1016/j.expneurol.2013.06.023,Sharp et al,2013,rats,mechanical reactivity
+6,10.1016/j.expneurol.2013.06.023,Sharp et al,2013,rats,micturition
+7,10.1523/JNEUROSCI.0605-15.2015,Liu et al,2015,rats,BBB
+8,10.1523/JNEUROSCI.0605-15.2015,Liu et al,2015,rats,reaching or retrieval
+9,10.1523/JNEUROSCI.0605-15.2015,Liu et al,2015,rats,grid walking test
+10,10.3390/ijms19041106,Bimbova et al,2018,rats,BBB
+11,10.1089/neu.2016.4556,Liu et al,2017,rats,BBB
+12,10.1089/neu.2016.4556,Liu et al,2017,rats,reaching or retrieval
+13,10.1089/neu.2016.4556,Liu et al,2017,rats,grid walking test
+14,10.1016/j.ejphar.2016.08.020,Yang et al,2016,mice,BMS
+15,10.1177/039463200401700315,Jiang et al,2004,rats,BBB
+16,10.1177/039463200401700315,Jiang et al,2004,rats,gait analysis
+17,10.1177/039463200401700315,Jiang et al,2004,rats,inclined plane test
+18,10.1001/archneur.1992.00530350096025,Halt et al,1992,rats,Tarlov scale
+19,10.1001/archneur.1992.00530350096025,Halt et al,1992,rats,inclined plane test
+20,10.1001/archneur.1992.00530350096025,Halt et al,1992,rats,Tarlov scale
+21,10.1001/archneur.1992.00530350096025,Halt et al,1992,rats,inclined plane test
+22,10.1089/neu.2011.1921,Durham-Lee et al,2011,rats,BBB
+23,10.3390/jcm7030046,Imai et al,2018,rats,BBB
+24,10.3390/jcm7030046,Imai et al,2018,rats,mechanical reactivity
+25,10.1089/neu.2011.1767,Krisa et al,2012,rats,grid walking test
+26,10.1089/neu.2011.1767,Krisa et al,2012,rats,reaching or retrieval
+27,10.1089/neu.2011.1767,Krisa et al,2012,rats,reaching or retrieval
+28,10.1016/j.bbi.2010.10.018,Hook et al,2011,rats,BBB
+29,10.1007/s11064-014-1344-9,Gao et al,2014,rats,BBB
+30,10.1177/0300060518760157,Baiyila et al,2018,rats,BBB
+31,10.1007/s00381-009-0985-5,Bilginer et al,2009,rats,locomotor (other)
+32,10.1007/s00381-009-0985-5,Bilginer et al,2009,rats,inclined plane test
+33,10.1007/s00381-009-0985-5,Bilginer et al,2009,rats,locomotor (other)
+34,10.1007/s00381-009-0985-5,Bilginer et al,2009,rats,inclined plane test
+35,10.1007/s00381-009-0985-5,Bilginer et al,2009,rats,locomotor (other)
+36,10.1007/s00381-009-0985-5,Bilginer et al,2009,rats,inclined plane test
+37,10.3390/cells9051310,Hong et al,2020,rats,BBB
+38,10.3390/cells9051310,Hong et al,2020,rats,ladder walk test
+39,10.1016/j.spinee.2017.10.067,Martins et al,2018,rats,BBB
+40,10.4103/1673-5374.184498,Gao et al,2016,rats,BBB
+41,10.1016/j.neulet.2009.01.062,Déry et al,2009,rats,BBB
+42,10.1016/j.tjog.2015.12.009,Yeng et al,2016,rats,BBB
+43,10.1111/j.1600-079X.2004.00194.x,Genovese et al,2005,rats,Tarlov scale
+44,10.1002/jnr.20345,Pannu et al,2005,rats,BBB
+45,20026746,Nash et al,2002,rats,reaching or retrieval
+46,10.1186/s12974-015-0440-3,Zhang et al,2015,mice,BMS
+47,10.1186/s12974-015-0440-3,Zhang et al,2015,mice,grid walking test
+48,10.1002/ana.410100403,Faden et al,1981,cats,Tarlov scale
+49,10.1002/ana.410270107,Giulian et al,1990,rabbit,locomotor (other)
+50,10.1002/ana.410270107,Giulian et al,1990,rabbit,pain
+51,10.1002/ana.410270107,Giulian et al,1990,rabbit,somatosensory evoked potentials
+52,10.1002/ana.410300405,Salzman et al,1991,rats,somatosensory evoked potentials
+53,10.1002/ana.410300405,Salzman et al,1991,rats,Tarlov scale
+54,10.1002/ana.410300405,Salzman et al,1991,rats,inclined plane test
+55,10.1002/cne.23056,Siriphorn et al,2012,rats,reaching or retrieval
+56,10.1002/cne.23056,Siriphorn et al,2012,rats,ladder walk test
+57,10.1002/cne.23056,Siriphorn et al,2012,rats,gait analysis
+58,10.1002/jcp.28680,Mohammadshirazi et al,2019,rats,BBB
+59,10.1002/jcp.28680,Mohammadshirazi et al,2019,rats,motor evoked potentials
+60,10.1002/jnr.10187,Rabchevsky et al,2002,rats,BBB
+61,10.1002/jnr.1254,Borgens et al,2001,guinea pig,somatosensory evoked potentials
+62,10.1002/jnr.1254,Borgens et al,2001,guinea pig,mechanical reactivity
+63,10.1002/jnr.21283,Ditor et al,2007,rats,BBB
+64,10.1002/jnr.21283,Ditor et al,2007,rats,pain
+65,10.1002/jnr.21283,Ditor et al,2007,rats,BBB
+66,10.1002/jnr.21283,Ditor et al,2007,rats,pain
+67,10.1002/jnr.21283,Ditor et al,2007,rats,BBB
+68,10.1002/jnr.21283,Ditor et al,2007,rats,pain
+69,10.1111/1440-1681.12345,Liu et al,2015,rats,BBB
+70,10.1002/jnr.22555,Diaz-Ruiz et al,2011,rats,BBB
+71,10.1002/jnr.23930,Krityakiarana et al,2016,mice,BMS
+72,10.1002/nrc.10051,Vanicky et al,2002,rats,BBB
+73,10.1006/exnr.1994.1042,Behrmann et al,1994,rats,Tarlov scale
+74,10.1006/exnr.1994.1042,Behrmann et al,1994,rats,inclined plane test
+75,10.1006/exnr.1994.1042,Behrmann et al,1994,rats,grid walking test
+76,10.1006/exnr.1994.1042,Behrmann et al,1994,rats,gait analysis
+77,10.1089/neu.1989.6.153,Sadanaga et al,1989,rats,Tarlov scale
+78,10.1016/j.jsbmb.2015.06.007,Gueye et al,2015,rats,ladder walk test
+79,10.1016/j.jsbmb.2015.06.007,Gueye et al,2015,rats,electrophysiology (other)
+80,10.1016/j.jsbmb.2015.06.007,Gueye et al,2015,rats,other reflexes
+81,10.1006/exnr.1994.1043,Guth et al,1994,rats,Tarlov scale
+82,10.1016/j.jconrel.2020.02.009,Nazemi et al,2020,rats,BBB
+83,10.1016/j.jconrel.2020.02.009,Nazemi et al,2020,rats,gait analysis
+84,10.1007/BF03018241,Lopez et al,2004,rats,locomotor (other)
+85,10.1007/BF03018241,Lopez et al,2004,rats,inclined plane test
+86,10.1007/BF03018241,Lopez et al,2004,rats,thermal reactivity
+87,10.1007/BF03018241,Lopez et al,2004,rats,somatosensory evoked potentials
+88,10.1007/s11011-018-0220-8,Namjoo et al,2018,rats,BBB
+89,10.1007/s00068-013-0349-4,Çavus et al,2014,rats,inclined plane test
+90,10.1007/s00068-013-0349-4,Çavus et al,2014,rats,Gale scale
+91,10.1007/s00068-013-0349-4,Çavus et al,2014,rats,inclined plane test
+92,10.1007/s00068-013-0349-4,Çavus et al,2014,rats,Gale scale
+93,10.1007/s00068-013-0349-4,Çavus et al,2014,rats,inclined plane test
+94,10.1007/s00068-013-0349-4,Çavus et al,2014,rats,Gale scale
+95,10.3969/j.issn.2095-4344.2017.25.014,Kang et al,2017,rats,BBB
+96,10.1007/s00221-020-05974-w,Baltin et al,2021,rats,motor evoked potentials
+97,10.1007/s00221-020-05974-w,Baltin et al,2021,rats,gait analysis
+98,10.1007/s00381-018-3792-z,Chen et al,2018,rats,BBB
+99,10.5137/1019-5149.JTN.14036-15.1,Caliskan et al,2016,rats,BBB
+100,10.5137/1019-5149.JTN.14036-15.1,Caliskan et al,2016,rats,somatosensory evoked potentials
+101,10.5137/1019-5149.JTN.14036-15.1,Caliskan et al,2016,rats,BBB
+102,10.5137/1019-5149.JTN.14036-15.1,Caliskan et al,2016,rats,somatosensory evoked potentials
+103,10.5137/1019-5149.JTN.14036-15.1,Caliskan et al,2016,rats,BBB
+104,10.5137/1019-5149.JTN.14036-15.1,Caliskan et al,2016,rats,somatosensory evoked potentials
+105,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,motor evoked potentials
+106,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,somatosensory evoked potentials
+107,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,Gale scale
+108,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,inclined plane test
+109,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,motor evoked potentials
+110,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,somatosensory evoked potentials
+111,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,Gale scale
+112,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,inclined plane test
+113,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,motor evoked potentials
+114,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,somatosensory evoked potentials
+115,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,Gale scale
+116,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,inclined plane test
+117,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,motor evoked potentials
+118,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,somatosensory evoked potentials
+119,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,locomotor (other)
+120,10.1007/s00586-003-0550-y,Cayli et al,2004,rats,inclined plane test
+121,10.1007/s00586-006-0091-2,Cetin et al,2006,rats,swimming
+122,10.1007/s00586-006-0091-2,Cetin et al,2006,rats,swimming
+123,10.1007/s00586-006-0091-2,Cetin et al,2006,rats,swimming
+124,10.1007/s00586-008-0653-6,Ha et al.,2008,rats,Gale scale
+125,10.1007/s00586-008-0653-6,Ha et al.,2008,rats,inclined plane test
+126,10.1007/s00586-008-0653-6,Ha et al.,2008,rats,Gale scale
+127,10.1007/s00586-008-0653-6,Ha et al.,2008,rats,inclined plane test
+128,10.1007/s00586-008-0653-6,Ha et al.,2008,rats,Gale scale
+129,10.1007/s00586-008-0653-6,Ha et al.,2008,rats,inclined plane test
+130,10.1007/s00586-008-0872-x,Aslan et al,2009,rabbit,Tarlov scale
+131,10.1007/s00586-009-1033-6,Aslan et al,2009,rabbit,Tarlov scale
+132,10.1016/j.expneurol.2017.10.006,Colón et al,2018,rats,BBB
+133,10.1016/j.expneurol.2017.10.006,Colón et al,2018,rats,grid walking test
+134,10.1007/s10571-009-9380-8,Xu et al,2009,rats,BBB
+135,10.1007/s10571-009-9395-1,Saganová et al,2009,rats,BBB
+136,10.1007/s10856-017-6016-2,Fabela-Sánchez et al,2018,rats,BBB
+137,10.1007/s11064-014-1429-5,Darvishi et al,2014,rats,BBB
+138,10.1007/s11064-014-1429-5,Darvishi et al,2014,rats,electrophysiology (other)
+139,10.1590/1678-5150-PVB-5165,Torres et al,2018,rats,locomotor (other)
+140,10.1590/1678-5150-PVB-5165,Torres et al,2018,rats,mechanical reactivity
+141,10.1590/1678-5150-PVB-5165,Torres et al,2018,rats,mechanical reactivity
+142,10.1590/1678-5150-PVB-5165,Torres et al,2018,rats,inclined plane test
+143,10.1590/1678-5150-PVB-5165,Torres et al,2018,rats,pain
+144,10.1007/s11064-018-2525-8,Guo et al,2018,rats,BBB
+145,10.1016/j.nbd.2020.105187,Chio et al,2021,rats,BBB
+146,10.1016/j.nbd.2020.105187,Chio et al,2021,rats,inclined plane test
+147,10.1016/j.nbd.2020.105187,Chio et al,2021,rats,grip strength
+148,10.1016/j.nbd.2020.105187,Chio et al,2021,rats,thermal reactivity
+149,10.1016/j.nbd.2020.105187,Chio et al,2021,rats,gait analysis
+150,10.1016/j.nbd.2020.105187,Chio et al,2021,rats,somatosensory evoked potentials
+151,10.3389/fncel.2019.00490,Kopper et al,2019,mice,BMS
+152,10.3389/fncel.2019.00490,Kopper et al,2019,mice,pain
+153,10.1007/s12031-020-01509-8,Afshary et al.,2020,rats,BBB
+154,10.1007/s12035-016-9895-1,Zhang et al.,2017,rats,BBB
+155,10.1007/s12035-016-9895-1,Zhang et al.,2017,rats,inclined plane test
+156,10.1007/s12640-017-9758-1,Liu et al.,2017,rats,BBB
+157,10.1007/s12640-017-9758-1,Liu et al.,2017,rats,inclined plane test
+158,10.1007/s13311-020-00974-8,Jin et al.,2021,rats,reaching or retrieval
+159,10.1007/s13311-020-00974-8,Jin et al.,2021,rats,ladder walk test
+160,10.1007/s13311-020-00974-8,Jin et al.,2021,rats,motor evoked potentials
+161,10.1007/s13311-020-00974-8,Jin et al.,2021,rats,reaching or retrieval
+162,10.1007/s13311-020-00974-8,Jin et al.,2021,rats,ladder walk test
+163,10.1007/s13311-020-00974-8,Jin et al.,2021,rats,motor evoked potentials
+164,10.1016/s0169-328x(00)00284-9,Brandoli et al.,2001,rats,Gale scale
+165,10.1016/0014-2999(84)90196-1,Faden et al,1984,rabbit,locomotor (other)
+166,10.1016/0014-2999(91)90786-P,Hashimoto et al.,1991,rats,composite scores
+167,10.1016/0168-0102(94)90072-8,Winkler et al,1994,rats,spinal cord evoked potentials
+168,10.1016/0196-9781(83)90009-8,Faden et al,1983,cats,locomotor (other)
+169,10.1016/0196-9781(83)90009-8,Faden et al,1983,rats,locomotor (other)
+170,10.1016/0196-9781(83)90009-8,Faden et al,1983,rabbit,locomotor (other)
+171,PMID: 32655800,Chen et al.,2020,rats,BBB
+172,https://www.acarindex.com/pdfs/712585,Oslau et al,2014,rats,BBB
+173,10.4103/1673-5374.221163,Salem et al.,2017,rats,BMS
+174,10.4103/1673-5374.221163,Salem et al.,2017,rats,BMS
+175,10.4103/1673-5374.221163,Salem et al.,2017,rats,BMS
+176,10.6091/ibj.1060.2012,Abdanipour et al.,2012,rats,BBB
+177,10.6061/clinics/2018/e235,Teixeira et al.,2018,rats,BBB
+178,10.6061/clinics/2018/e235,Teixeira et al.,2018,rats,motor evoked potentials
+179,10.1016/j.bbrc.2017.12.119,Tong et al.,2018,rats,BBB
+180,10.1016/j.bbrc.2017.12.119,Tong et al.,2018,rats,inclined plane test
+181,10.5137/1019-5149.JTN.11749-14.1,Karatas et al.,2015,rats,Tarlov scale
+182,10.1016/j.biomaterials.2015.10.015,Papa et al.,2016,mice,BMS
+183,http://jmums.mazums.ac.ir/article-1-8248-en.html,Pourheydar et al.,2018,rats,BBB
+184,http://jmums.mazums.ac.ir/article-1-8248-en.html,Pourheydar et al.,2018,rats,BBB
+185,10.1016/j.biomaterials.2016.10.002,Wang et al.,2017,rats,locomotor (other)
+186,10.1016/j.biomaterials.2016.10.002,Wang et al.,2017,rats,grid walking test
+187,10.1016/j.biomaterials.2019.119326,Wang et al.,2019,rats,BBB
+188,10.4149/BLL_2018_123,Khoshsirat et al.,2018,rats,BBB
+189,10.4149/BLL_2018_123,Khoshsirat et al.,2018,rats,beam walk test
+190,10.1016/j.brainres.2006.12.024,Fee et al.,2007,rats,BBB
+191,10.1016/j.brainres.2008.01.091,Ritz et al.,2008,rats,BBB
+192,10.1016/j.brainres.2008.01.091,Ritz et al.,2008,rats,beam walk test
+193,10.3171/jns.1981.55.2.0200,Means et al.,1981,cats,locomotor (other)
+194,10.1111/j.1600-0404.1990.tb01589.x,Holtz et al.,1990,rats,inclined plane test
+195,10.5137/1019-5149.JTN.11499-14.2,Korkmaz et al.,2015,rats,locomotor (other)
+196,10.1227/00006123-198703000-00005,Haghighi et al.,1987,cats,spinal cord evoked potentials
+197,10.1016/0090-3019(85)90226-5,Arias,1985,rats,inclined plane test
+198,10.1016/0090-3019(93)90048-6,Ross et al.,1993,rats,inclined plane test
+199,10.1016/0090-3019(93)90048-6,Ross et al.,1993,rats,somatosensory evoked potentials
+200,10.1227/00006123-198011000-00009,Gerber et al.,1980,dogs,Tarlov scale
+201,10.1227/00006123-198011000-00009,Gerber et al.,1980,dogs,Tarlov scale
+202,10.1590/S0102-09352008000300018,Silva et al.,2008,rats,pain
+203,10.1590/S0102-09352008000300018,Silva et al.,2008,rats,locomotor (other)
+204,10.1590/S0102-09352008000300018,Silva et al.,2008,rats,mechanical reactivity
+205,10.1590/S0102-09352008000300018,Silva et al.,2008,rats,mechanical reactivity
+206,10.1590/S0102-09352008000300018,Silva et al.,2008,rats,inclined plane test
+207,https://pubmed.ncbi.nlm.nih.gov/17359722/,Pan et al.,2006,rats,BBB
+208,https://pubmed.ncbi.nlm.nih.gov/17359722/,Pan et al.,2006,rats,inclined plane test
+209,10.4103/1673-5374.215263,Liu et al.,2017,rats,gait analysis
+210,10.4103/1673-5374.215263,Liu et al.,2017,rats,gait analysis
+211,10.4103/1673-5374.215263,Liu et al.,2017,rats,gait analysis
+212,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,BBB
+213,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,Tarlov scale
+214,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,inclined plane test
+215,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,Gale scale
+216,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,BBB
+217,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,Tarlov scale
+218,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,inclined plane test
+219,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,Gale scale
+220,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,BBB
+221,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,Tarlov scale
+222,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,inclined plane test
+223,10.1016/j.pbb.2016.04.003,Ahmad et al.,2016,rats,Gale scale
+224,10.1177/147323001103900313,Meng et al.,2011,rats,BBB
+225,10.12047/j.cjap.5801.2019.095,Shen et al.,2019,rats,BBB
+226,10.12047/j.cjap.5801.2019.095,Shen et al.,2019,rats,inclined plane test
+227,10.1038/sc.2013.18,Cristante et al.,2013,rats,BBB
+228,10.1038/sc.2013.18,Cristante et al.,2013,rats,motor evoked potentials
+229,10.1038/sc.2015.217,Zhou et al.,2016,rats,BBB
+230,10.1038/sc.2015.217,Zhou et al.,2016,rats,inclined plane test
+231,10.1016/S0006-8993(98)00024-9,Nantwi et al.,1998,rats,electrophysiology (other)
+232,10.1111/j.1600-079X.2007.00454.x,Genovese et al.,2007,mice,BBB
+233,10.1111/j.1600-079X.2007.00454.x,Genovese et al.,2007,mice,BBB
+234,10.1111/j.1600-079X.2007.00454.x,Genovese et al.,2007,mice,BBB
+235,PMID: 25796020,Farsi et al.,2015,rats,BBB
+236,PMID: 25796020,Farsi et al.,2015,rats,thermal reactivity
+237,PMID: 25796020,Farsi et al.,2015,rats,BBB
+238,PMID: 25796020,Farsi et al.,2015,rats,thermal reactivity
+239,PMID: 25796020,Farsi et al.,2015,rats,BBB
+240,PMID: 25796020,Farsi et al.,2015,rats,thermal reactivity
+241,10.1016/j.neuint.2013.03.005,Yin et al.,2013,rats,BBB
+242,10.1016/j.neuint.2013.03.005,Yin et al.,2013,rats,grid walking test
+243,10.4103/1673-5374.194753,Lu et al.,2016,rats,BBB
+244,10.4103/1673-5374.193250,Li et al.,2016,rats,BBB
+245,10.4103/1673-5374.170314,Hou et al.,2015,rats,BBB
+246,10.3969/j.issn.2095-4344.2591,Qinxuan et al.,2020,rats,BBB
+247,10.3969/j.issn.2095-4344.2591,Qinxuan et al.,2020,rats,BBB
+248,10.6061/clinics/2015(10)08,Letaif et al.,2015,rats,BBB
+249,10.6061/clinics/2015(10)08,Letaif et al.,2015,rats,motor evoked potentials
+250,10.1016/j.expneurol.2004.04.001,Hains et al.,2004,rats,BBB
+251,10.1016/j.expneurol.2004.04.001,Hains et al.,2004,rats,gait analysis
+252,10.1016/j.expneurol.2004.04.001,Hains et al.,2004,rats,grid walking test
+253,10.1016/j.expneurol.2004.04.001,Hains et al.,2004,rats,electrophysiology (other)
+254,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,BBB
+255,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,pain
+256,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,ladder walk test
+257,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,gait analysis
+258,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,BBB
+259,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,pain
+260,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,ladder walk test
+261,10.1016/j.expneurol.2007.12.013,Mann et al.,2008,rats,gait analysis
+262,10.3892/mmr.2014.2352,Liao et al.,2014,rats,inclined plane test
+263,10.3892/mmr.2014.2352,Liao et al.,2014,rats,Gale scale
+264,10.3892/etm.2019.8147,Li et al.,2019,rats,BBB
+265,10.3892/etm.2019.8147,Li et al.,2019,rats,somatosensory evoked potentials
+266,10.3892/etm.2019.8147,Li et al.,2019,rats,motor evoked potentials
+267,10.3892/etm.2019.7456,Wu et al.,2019,rats,BBB
+268,10.3892/etm.2018.5973,Rong et al.,2018,rats,BBB
+269,10.3892/etm.2018.5973,Rong et al.,2018,rats,inclined plane test
+270,10.1016/j.expneurol.2011.08.011,Wong et al.,2012,rats,beam walk test
+271,10.1016/j.expneurol.2011.08.011,Wong et al.,2012,rats,BBB
+272,10.1016/j.expneurol.2011.08.011,Wong et al.,2012,rats,grip strength
+273,10.3390/ijms21145062,Lima et al.,2020,rats,BBB
+274,10.3390/ijms21145062,Lima et al.,2020,rats,locomotor (other)
+275,10.3892/etm.2014.1613,Li et al.,2014,rats,BBB
+276,10.3892/etm.2014.1613,Li et al.,2014,rats,grid walking test
+277,10.1038/sc.2013.140,Chen et al.,2014,rats,BBB
+278,10.1007/BF02576237,Akdemir et al.,1993,rats,somatosensory evoked potentials
+279,10.1038/sj.bjp.0707577,Genovese et al.,2008,mice,BBB
+280,10.3389/fnins.2018.00252,Chen et al.,2018,rats,BBB
+281,10.3389/fnins.2018.00252,Chen et al.,2018,rats,BBB
+282,10.3346/jkms.2004.19.1.113,Kim et al.,2004,rats,BBB
+283,10.3340/jkns.2016.59.4.334,Mbori et al.,2016,rats,BBB
+284,10.3171/spi.2009.10.4.308,Wiseman et al.,2009,rats,BBB
+285,10.3171/spi.2009.10.4.308,Wiseman et al.,2009,rats,BBB
+286,10.3171/spi.2009.10.4.308,Wiseman et al.,2009,rats,BBB
+287,10.1016/j.jocn.2006.03.023,Ates et al.,2007,rats,Gale scale
+288,10.1016/j.jocn.2006.03.023,Ates et al.,2007,rats,inclined plane test
+289,10.1016/j.jocn.2006.03.023,Ates et al.,2007,rats,Gale scale
+290,10.1016/j.jocn.2006.03.023,Ates et al.,2007,rats,inclined plane test
+291,10.1016/j.jocn.2009.03.036,Serarslan et al.,2010,rats,Tarlov scale
+292,10.1016/j.jocn.2009.03.036,Serarslan et al.,2010,rats,Tarlov scale
+293,10.3171/spi.2000.93.1.0094,Hara et al.,2000,rats,Gale scale
+294,10.1007/s12035-017-0400-2,Zendedel et al.,2018,rats,BBB
+295,10.3171/jns.1987.67.1.0102,Brauchler et al.,1987,cats,locomotor (other)
+296,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,somatosensory evoked potentials
+297,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,locomotor (other)
+298,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,somatosensory evoked potentials
+299,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,locomotor (other)
+300,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,somatosensory evoked potentials
+301,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,locomotor (other)
+302,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,somatosensory evoked potentials
+303,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,locomotor (other)
+304,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,somatosensory evoked potentials
+305,10.3171/jns.1986.64.4.0633,Robertson et al.,1986,rabbit,locomotor (other)
+306,10.3171/jns.1984.60.3.0595,Kobrine et al.,1984,cats,somatosensory evoked potentials
+307,10.3171/jns.1983.58.5.0749,Hallenbeck et al.,1983,cats,Tarlov scale
+308,10.1053/j.jvca.2012.05.003,Watanabe et al.,2012,rabbit,Tarlov scale
+309,10.1007/s11064-006-9075-1,Yücel et al.,2006,rats,Gale scale
+310,10.1007/s11064-006-9075-1,Yücel et al.,2006,rats,inclined plane test
+311,10.3171/2020.2.SPINE191439,Gürkan et al.,2020,rats,inclined plane test
+312,10.3171/2020.2.SPINE191439,Gürkan et al.,2020,rats,BBB
+313,10.3171/2020.2.SPINE191439,Gürkan et al.,2020,rats,Tarlov scale
+314,10.3171/2020.2.SPINE191439,Gürkan et al.,2020,rats,locomotor (other)
+315,10.3171/spi.2001.94.2.0245,Schwartz et al.,2001,rats,BBB
+316,10.3171/spi.2001.94.2.0245,Schwartz et al.,2001,rats,inclined plane test
+317,10.3171/jns.1983.58.3.0406,Tator et al.,1983,rats,inclined plane test
+318,10.3171/jns.1982.57.5.0667,Young et al.,1982,cats,somatosensory evoked potentials
+319,10.1016/j.neulet.2008.01.041,Saganova et al.,2008,rats,BBB
+320,10.3171/jns.1979.50.3.0349,Rivlin et al.,1979,rats,inclined plane test
+321,10.3171/jns.1979.50.3.0349,Rivlin et al.,1979,rats,inclined plane test
+322,10.1016/j.neulet.2020.135440,Zhang et al.,2020,rats,BBB
+323,10.1016/j.neulet.2020.135440,Zhang et al.,2020,rats,BBB
+324,10.1016/j.neuroscience.2007.06.059,Genovese et al.,2007,mice,BBB
+325,10.18632/oncotarget.21142,Wu et al.,2017,rats,Tarlov scale
+326,10.18632/oncotarget.21142,Wu et al.,2017,rats,Gale scale
+327,10.1016/j.neuropharm.2016.05.018,Lee et al.,2016,rats,BBB
+328,10.1590/s0102-865020180120000006,de Figueiredo et al.,2018,rats,BBB
+329,10.1590/s0102-865020180120000006,de Figueiredo et al.,2018,rats,pain
+330,10.1016/j.spinee.2016.04.013,Vasconcelos et al.,2016,rats,BBB
+331,10.1016/j.spinee.2016.04.013,Vasconcelos et al.,2016,rats,locomotor (other)
+332,10.1016/j.spinee.2016.04.013,Vasconcelos et al.,2016,rats,swimming
+333,10.1159/000475896,Miranpuri et al.,2017,rats,BBB
+334,10.1159/000475896,Miranpuri et al.,2017,rats,thermal reactivity
+335,10.1016/j.surneu.2005.03.036,Gül et al.,2005,rats,pain
+336,10.1016/j.surneu.2005.03.036,Gül et al.,2005,rats,inclined plane test
+337,10.1016/j.surneu.2005.03.036,Gül et al.,2005,rats,pain
+338,10.1016/j.surneu.2005.03.036,Gül et al.,2005,rats,inclined plane test
+339,10.1523/JNEUROSCI.4353-06.2007,Fu et al.,2007,rats,BBB
+340,10.1523/JNEUROSCI.4353-06.2007,Fu et al.,2007,rats,grid walking test
+341,10.1523/JNEUROSCI.4353-06.2007,Fu et al.,2007,rats,gait analysis
+342,10.1523/JNEUROSCI.4353-06.2007,Fu et al.,2007,rats,BBB
+343,10.1523/JNEUROSCI.4353-06.2007,Fu et al.,2007,rats,grid walking test
+344,10.1523/JNEUROSCI.4353-06.2007,Fu et al.,2007,rats,gait analysis
+345,10.1042/BSR20160134,Cheng et al.,2016,mice,BMS
+346,10.1042/BSR20160134,Cheng et al.,2016,mice,inclined plane test
+347,10.1097/CCM.0b013e3182657560,Hu et al.,2012,rats,BBB
+348,10.1172/JCI130391,Sun et al.,2020,mice,ladder walk test
+349,10.1172/JCI130391,Sun et al.,2020,mice,gait analysis
+350,10.1172/JCI130391,Sun et al.,2020,mice,rearing
+351,10.1172/JCI130391,Sun et al.,2020,mice,mechanical reactivity
+352,10.1172/JCI130391,Sun et al.,2020,mice,locomotor (other)
+353,10.1523/ENEURO.0101-18.2018,McCreedy et al.,2018,mice,BMS
+354,10.1523/ENEURO.0101-18.2018,McCreedy et al.,2018,mice,grid walking test
+355,10.15171/apb.2015.026,Tajkey et al.,2015,rats,BBB
+356,10.1227/NEU.0b013e3182241f3b,Zheng et al.,2011,rats,BBB
+357,10.1227/NEU.0b013e3182241f3b,Zheng et al.,2011,rats,thermal reactivity
+358,10.1186/1742-2094-9-224,Nguyen et al.,2012,rats,inclined plane test
+359,10.1186/1742-2094-9-224,Nguyen et al.,2012,rats,BBB
+360,10.1186/1742-2094-9-224,Nguyen et al.,2012,rats,motor evoked potentials
+361,10.1038/sc.2010.116,Ueno et al.,2011,rats,BBB
+362,10.1089/neu.2007.0464,Wang et al.,2009,rats,BBB
+363,10.1089/neu.2007.0464,Wang et al.,2009,rats,BBB
+364,10.1089/neu.2007.0464,Wang et al.,2009,mice,BMS
+365,10.1177/2309499017739481,Ozkunt et al.,2017,rats,BBB
+366,10.1177/2309499017739481,Ozkunt et al.,2017,rats,BBB
+367,10.1055/s-0033-1345098,Zakeri et al.,2014,rats,BBB
+368,10.1073/pnas.0306239101,Teng et al.,2004,rats,BBB
+369,10.1073/pnas.0306239101,Teng et al.,2004,rats,inclined plane test
+370,10.1073/pnas.0306239101,Teng et al.,2004,rats,other reflexes
+371,10.1073/pnas.0306239101,Teng et al.,2004,rats,toe spread test
+372,10.1177/147323001003800219,Wu et al.,2010,rats,BBB
+373,10.1177/147323000903700227,Huang et al.,2009,rats,BBB
+374,10.1089/089771503770195867,Lee et al.,2003,rats,BBB
+375,10.1007/s12264-016-0017-x,Lin et al.,2016,rats,BBB
+376,10.1007/s12264-016-0017-x,Lin et al.,2016,rats,inclined plane test
+377,10.1126/science.7455690,Faden et al.,1981,cats,Tarlov scale
+378,10.1089/neu.1991.8.239,Holtz et al.,1991,rats,inclined plane test
+379,10.1124/jpet.107.123679,Gorio et al.,2007,rats,BBB
+380,10.1124/jpet.107.123679,Gorio et al.,2007,rats,ladder walk test
+381,10.1124/jpet.107.123679,Gorio et al.,2007,rats,thermal reactivity
+382,10.1089/neu.2005.22.240,Ravikumar et al.,2005,rats,BBB
+383,10.1089/neu.2009.0884,Know et al.,2009,rats,BBB
+384,10.1089/neu.2009.0884,Know et al.,2009,rats,BBB
+385,10.1089/neu.2009.0884,Know et al.,2009,rats,BBB
+386,10.1089/neu.2009.0884,Know et al.,2009,rats,BBB
+387,10.1089/neu.2009.0884,Know et al.,2009,rats,BBB
+388,10.1089/neu.2009.0884,Know et al.,2009,rats,BBB
+389,10.1089/neu.2009.1069,Kachadroka et al.,2010,rats,BBB
+390,10.1089/neu.2010.1409,Roman et al.,2011,rats,BBB
+391,10.1089/neu.2010.1409,Roman et al.,2011,rats,gait analysis
+392,10.1089/neu.2010.1409,Roman et al.,2011,rats,pain
+393,10.1089/neu.2010.1409,Roman et al.,2011,rats,thermal reactivity
+394,10.3969/j.issn.2095-4344.0410,Bu et al.,2018,rats,BBB
+395,10.2174/1874467213666201230101811,Fakhri et al.,2020,rats,BBB
+396,10.2174/1874467213666201230101811,Fakhri et al.,2020,rats,mechanical reactivity
+397,10.2174/1874467213666201230101811,Fakhri et al.,2020,rats,thermal reactivity
+398,10.2174/1874467213666201230101811,Fakhri et al.,2020,rats,inclined plane test
+399,10.1089/neu.2008.0710,Hook et al.,2009,rats,BBB
+400,10.1089/neu.2008.0710,Hook et al.,2009,rats,ladder walk test
+401,10.1089/neu.2008.0710,Hook et al.,2009,rats,beam walk test
+402,10.1089/neu.2008.0710,Hook et al.,2009,rats,mechanical reactivity
+403,10.1089/neu.2008.0710,Hook et al.,2009,rats,thermal reactivity
+404,10.1089/neu.2013.3162,Garcia-Ovejero et al.,2014,rats,BBB
+405,10.1089/neu.2013.3162,Garcia-Ovejero et al.,2014,rats,gait analysis
+406,10.1089/neu.2013.3162,Garcia-Ovejero et al.,2014,rats,mechanical reactivity
+407,10.1089/neu.2013.3162,Garcia-Ovejero et al.,2014,rats,thermal reactivity
+408,10.5606/tftrd.2016.67760,Erol et al.,2016,rats,Tarlov scale
+409,10.5606/tftrd.2016.67760,Erol et al.,2016,rats,inclined plane test
+410,10.5606/tftrd.2016.67760,Erol et al.,2016,rats,Tarlov scale
+411,10.5606/tftrd.2016.67760,Erol et al.,2016,rats,inclined plane test
+412,10.1089/neu.2016.4439,Streijger et al.,2016,other,locomotor (other)
+413,10.1089/neu.2016.4439,Streijger et al.,2016,other,gait analysis
+414,10.1089/neu.2016.4439,Streijger et al.,2016,other,locomotor (other)
+415,10.1089/neu.2016.4439,Streijger et al.,2016,other,gait analysis
+416,10.1111/j.1460-9568.2005.04241.x,Ji et al.,2005,rats,BBB
+417,10.1111/j.1460-9568.2005.04241.x,Ji et al.,2005,rats,gait analysis
+418,10.1111/j.1460-9568.2004.03658.x,Doyle et al.,2004,other,swimming
+419,10.1111/j.0953-816X.2004.03402.x,Ibarra et al.,2004,rats,BBB
+420,10.1111/ejn.12647,Kuroiwa et al.,2014,rats,BBB
+421,10.1093/brain/awg178,Wells et al.,2003,mice,BBB
+422,10.1093/brain/awg178,Wells et al.,2003,mice,BBB
+423,10.1093/brain/awg178,Wells et al.,2003,mice,inclined plane test
+424,10.1038/sc.2008.85,Guizar-Sahagun et al.,2009,rats,BBB
+425,10.1038/sc.2008.85,Guizar-Sahagun et al.,2009,rats,BBB
+426,10.1038/sc.2008.85,Guizar-Sahagun et al.,2009,rats,trunk muscle activity
+427,10.1038/sc.2008.85,Guizar-Sahagun et al.,2009,rats,BBB
+428,10.1038/sc.2008.85,Guizar-Sahagun et al.,2009,rats,BBB
+429,10.1038/sc.2008.85,Guizar-Sahagun et al.,2009,rats,trunk muscle activity
+430,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,ladder walk test
+431,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,rearing
+432,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,reaching or retrieval
+433,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,grooming
+434,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,mechanical reactivity
+435,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,ladder walk test
+436,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,rearing
+437,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,reaching or retrieval
+438,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,grooming
+439,10.1016/j.expneurol.2010.06.018,Lee et al.,2010,rats,mechanical reactivity
+440,10.1097/WNR.0b013e32832c5cc2,Zeman et al.,2009,rats,BBB
+441,10.1097/00000542-198909000-00019,Cole et al.,1989,rats,locomotor (other)
+442,10.1097/00000542-198909000-00019,Cole et al.,1989,rats,pain
+443,10.1097/00000542-198909000-00019,Cole et al.,1989,rats,locomotor (other)
+444,10.1097/00000542-198909000-00019,Cole et al.,1989,rats,pain
+445,10.1097/00002517-200010000-00004,Kuchner et al.,2000,dogs,Tarlov scale
+446,10.1097/BRS.0b013e318294892c,Luo et al.,2013,rats,BBB
+447,10.1097/00007632-199910150-00013,Thomas et al.,1999,rats,BBB
+448,10.1097/ALN.0000000000002906,Stewart et al.,2019,rats,BBB
+449,10.1097/ALN.0000000000002906,Stewart et al.,2019,rats,BBB
+450,10.1097/ALN.0000000000002906,Stewart et al.,2019,rats,BBB
+451,10.1097/01.brs.0000259841.40358.8f,Gok et al.,2007,rats,inclined plane test
+452,10.1097/01.brs.0000259841.40358.8f,Gok et al.,2007,rats,BBB
+453,10.1097/BRS.0000000000000055,Dinc et al.,2013,rats,inclined plane test
+454,10.1097/BRS.0b013e3181d2d6c5,Lee et al.,2010,rats,ladder walk test
+455,10.1097/BRS.0b013e3181d2d6c5,Lee et al.,2010,rats,rearing
+456,10.1097/BRS.0b013e3181d2d6c5,Lee et al.,2010,rats,gait analysis
+457,10.1097/BRS.0b013e3181d2d6c5,Lee et al.,2010,rats,mechanical reactivity
+458,10.1097/BRS.0b013e3182895587,Sonmez et al.,2013,rats,BBB
+459,10.1097/shk.0b013e31814545dc,Cuzzocrea et al.,2008,mice,BBB
+460,10.1111/cns.12713,Ren et al.,2017,rats,BBB
+461,10.1111/cns.12713,Ren et al.,2017,rats,somatosensory evoked potentials
+462,10.3171/jns.1984.60.4.0712,Faden et al.,1984,cats,Tarlov scale
+463,10.3171/jns.1984.60.4.0712,Faden et al.,1984,cats,Tarlov scale
+464,10.1002/jcb.27794,Xu et al.,2019,rats,BBB
+465,10.1007/s11064-019-02838-w,Li et al.,2019,rats,BBB
+466,10.1016/j.npep.2019.102002,Yang et al.,2020,mice,BMS
+467,10.1007/s00701-014-2119-4,Piao et al.,2014,rats,BBB
+468,10.1002/jnr.24409,Zhang et al.,2019,rats,BBB
+469,10.1007/s11064-017-2251-7,Shen et al.,2017,rats,BBB
+470,10.1111/j.1600-079X.2008.00633.x,Esposito et al.,2009,mice,BBB
+471,10.1089/neu.2018.6012,Jing et al.,2019,mice,BMS
+472,10.1089/neu.2018.6012,Jing et al.,2019,mice,gait analysis
+473,10.1016/j.brainres.2010.04.047,Fee et al.,2010,rats,BBB
+474,10.1089/neu.2017.5476,Jeffrey-Gauthier et al.,2018,mice,gait analysis
+475,10.1111/j.1600-0404.1989.tb03865.x,Holtz et al.,1989,rats,inclined plane test
+476,10.1111/j.1600-079X.2011.00925.x,Park et al.,2012,rats,BBB
+477,10.1111/j.1745-7254.2006.00416.x,Ates et al.,2006,rats,Gale scale
+478,10.1111/j.1745-7254.2006.00416.x,Ates et al.,2006,rats,inclined plane test
+479,10.1111/j.1745-7254.2006.00416.x,Ates et al.,2006,rats,Gale scale
+480,10.1111/j.1745-7254.2006.00416.x,Ates et al.,2006,rats,inclined plane test
+481,10.3760/cma.j.issn.0366-6999.20140858,Yingli et al.,2014,mice,BMS
+482,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,BBB
+483,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,inclined plane test
+484,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,gait analysis
+485,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,grid walking test
+486,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,BBB
+487,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,inclined plane test
+488,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,gait analysis
+489,10.1523/JNEUROSCI.1661-07.2007,Yune et al.,2007,rats,grid walking test
+490,10.1111/jcmm.13235,Zhang et al.,2017,rats,BBB
+491,10.1111/jnc.12628,Park et al.,2014,rats,BBB
+492,10.1111/jnc.12628,Park et al.,2014,rats,mechanical reactivity
+493,10.1523/JNEUROSCI.5275-03.2004,Stirling et al.,2004,rats,gait analysis
+494,10.1089/neu.2005.22.1375,Weaver et al.,2005,rats,BBB
+495,10.1089/neu.2005.22.1375,Weaver et al.,2005,rats,mechanical reactivity
+496,10.3171/spi.2000.93.2.0276,Moutaery et al.,2000,rats,Tarlov scale
+497,10.3171/spi.2000.93.2.0276,Moutaery et al.,2000,rats,inclined plane test
+498,10.3171/spi.2000.93.2.0276,Moutaery et al.,2000,rats,mechanical reactivity
+499,10.3171/spi.2000.93.2.0276,Moutaery et al.,2000,rats,motor evoked potentials
+500,10.1038/sc.2015.172,de Mesquita Coutinho et al.,2016,rats,BBB
+501,10.1038/sc.2015.172,de Mesquita Coutinho et al.,2016,rats,motor evoked potentials
+502,10.1089/089771502753754118,Takami et al.,2002,rats,BBB
+503,10.1089/089771501750055802,Chikawa et al.,2001,rats,BBB
+504,10.1089/089771501750055802,Chikawa et al.,2001,rats,Tarlov scale
+505,10.1089/089771501750055802,Chikawa et al.,2001,rats,inclined plane test
+506,10.1089/089771501750055802,Chikawa et al.,2001,rats,gait analysis
+507,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,BBB
+508,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,beam walk test
+509,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,ladder walk test
+510,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,thermal reactivity
+511,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,mechanical reactivity
+512,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,mechanical reactivity
+513,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,BBB
+514,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,beam walk test
+515,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,ladder walk test
+516,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,thermal reactivity
+517,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,mechanical reactivity
+518,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,mechanical reactivity
+519,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,BBB
+520,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,beam walk test
+521,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,ladder walk test
+522,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,thermal reactivity
+523,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,mechanical reactivity
+524,10.1016/j.bbi.2019.01.023,Aceves et al.,2019,rats,mechanical reactivity
+525,10.1089/neu.2013.3293,Woller et al.,2014,rats,BBB
+526,10.1089/neu.2013.3293,Woller et al.,2014,rats,mechanical reactivity
+527,10.1089/neu.2013.3293,Woller et al.,2014,rats,mechanical reactivity
+528,10.1089/neu.2013.3293,Woller et al.,2014,rats,thermal reactivity
+529,10.1155/2016/9561968,de la Torre Valdovino et al.,2016,cats,gait analysis
+530,10.3892/mmr.2015.3390,Guo et al.,2015,mice,BBB
+531,10.3892/mmr.2015.3390,Guo et al.,2015,mice,locomotor (other)
+532,10.3892/mmr.2015.3390,Guo et al.,2015,mice,grid walking test
+533,10.1089/neu.1991.8.157,Black et al.,1991,rats,Tarlov scale
+534,10.1089/neu.1991.8.157,Black et al.,1991,rats,inclined plane test
+535,10.1227/00006123-198612000-00004,Black et al.,1986,rats,Tarlov scale
+536,10.1227/00006123-198612000-00004,Black et al.,1986,rats,inclined plane test
+537,10.1227/00006123-198612000-00005,Black et al.,1986,rats,Tarlov scale
+538,10.1227/00006123-198612000-00005,Black et al.,1986,rats,inclined plane test
+539,10.1155/2020/9741369,Wang et al.,2020,rats,BBB
+540,10.1155/2020/9741369,Wang et al.,2020,rats,gait analysis
+541,10.1186/s12951-019-0449-3,Lin et al.,2019,rats,BBB
+542,10.1186/s12951-019-0449-3,Lin et al.,2019,rats,BBB
+543,10.1080/01616412.1997.11740815,"Koyanagi, Tator",1997,rats,somatosensory evoked potentials
+544,10.1089/neu.2016.4507,Hook et al.,2017,rats,BBB
+545,10.1089/neu.2016.4507,Hook et al.,2017,rats,mechanical reactivity
+546,10.1089/neu.2016.4507,Hook et al.,2017,rats,thermal reactivity
+547,10.7717/peerj.2025,Wu et al.,2016,rats,BBB
+548,10.1073/pnas.91.25.12308,Guth et al.,1994,rats,Tarlov scale
+549,10.1093/brain/aws171,Lee et al.,2012,mice,BBB
+550,10.1007/s10529-020-02939-5,Gao et al.,2020,rats,BBB
+551,10.1073/pnas.0508479102,Gorio et al.,2005,rats,BBB
+552,10.1038/srep02217,Scali et al.,2013,rats,reaching or retrieval
+553,10.1038/srep02217,Scali et al.,2013,rats,ladder walk test
+554,10.1038/srep02217,Scali et al.,2013,rats,gait analysis
+555,10.4103/jnsbm.JNSBM_239_17,Dixit et al.,2018,mice,BMS
+556,10.4103/jnsbm.JNSBM_239_17,Dixit et al.,2018,mice,beam walk test
+557,10.1007/s10072-013-1566-7,Zhang et al.,2014,rats,BBB
+558,10.6061/clinics/2015(01)10,Nazli et al.,2015,rabbit,Tarlov scale
+559,PMID: 25663994,Li et al.,2014,rats,BBB
+560,PMID: 25663994,Li et al.,2014,rats,grid walking test
+561,10.1016/j.neuropharm.2012.10.028,Bharne et al.,2013,mice,BMS
+562,10.1016/j.neuropharm.2012.10.028,Bharne et al.,2013,mice,ladder walk test
+563,10.1016/j.ijdevneu.2006.04.003,Cayli et al.,2006,rats,Tarlov scale
+564,10.1016/j.ijdevneu.2006.04.003,Cayli et al.,2006,rats,inclined plane test
+565,10.1111/bcpt.12562,"Cong, Chen",2016,rats,BBB
+566,PMID: 26464639,Tan et al.,2015,rabbit,Tarlov scale
+567,10.1016/S0967-2109(03)00077-2,Cakir et al.,2003,rabbit,Tarlov scale
+568,10.1155/2015/260161,Gao et al.,2015,rats,BBB
+569,PMID: 27114797,Hou et al.,2016,rats,BBB
+570,PMID: 27114797,Hou et al.,2016,rats,grid walking test
+571,10.1159/000357382,Wang et al.,2014,rats,Gale scale
+572,10.1097/BRS.0000000000002357,Sozbilen et al.,2018,rats,BBB
+573,https://www.acarindex.com/pdfs/712505,Yilmaz et al.,2015,rats,inclined plane test
+574,https://www.acarindex.com/pdfs/712505,Yilmaz et al.,2015,rats,locomotor (other)
+575,10.1111/cns.12429,Chen et al.,2015,rats,BBB
+576,10.1097/BRS.0b013e31826ff7f1,Ok et al.,2012,rats,BBB
+577,10.5137/1019-5149.JTN.17959-16.1,Kazanci et al.,2017,rats,BBB
+578,10.5137/1019-5149.JTN.17959-16.1,Kazanci et al.,2017,rats,inclined plane test
+579,10.1016/j.ejphar.2014.07.042,Kahveci et al.,2014,rats,BBB
+580,10.1016/j.ejphar.2014.07.042,Kahveci et al.,2014,rats,inclined plane test
+581,10.1179/2045772314Y.0000000273,Xian-Hui et al.,2016,rats,BBB
+582,10.1179/1743132812Y.0000000133,Kouhzaei et al.,2013,rats,spinal cord evoked potentials
+583,10.1038/sc.2016.28,Aceves et al.,2016,rats,BBB
+584,10.1038/sc.2016.28,Aceves et al.,2016,rats,ladder walk test
+585,10.1038/sc.2016.28,Aceves et al.,2016,rats,beam walk test
+586,10.1038/sc.2016.28,Aceves et al.,2016,rats,thermal reactivity
+587,10.1038/sc.2016.28,Aceves et al.,2016,rats,mechanical reactivity
+588,10.1038/sc.2016.28,Aceves et al.,2016,rats,mechanical reactivity
+589,10.1016/j.neuroscience.2004.09.056,Guizar-Sahagun et al.,2005,rats,BBB
+590,10.1016/j.neuroscience.2004.09.056,Guizar-Sahagun et al.,2005,rats,spinal cord blood flow
+591,10.1212/wnl.25.6.508,De La Torre et al.,1975,dogs,Tarlov scale
+592,10.1212/wnl.25.6.508,De La Torre et al.,1975,dogs,somatosensory evoked potentials
+593,10.1212/wnl.25.6.508,De La Torre et al.,1975,dogs,Tarlov scale
+594,10.1212/wnl.25.6.508,De La Torre et al.,1975,dogs,somatosensory evoked potentials
+595,10.1038/sc.2014.118,Yates et al.,2014,guinea pig,toe spread test
+596,10.1038/sc.2014.118,Yates et al.,2014,guinea pig,mechanical reactivity
+597,10.1038/sc.2014.118,Yates et al.,2014,guinea pig,somatosensory evoked potentials
+598,10.1227/00006123-198202000-00009,Flamm et al.,1982,cats,locomotor (other)
+599,10.1227/00006123-198202000-00009,Flamm et al.,1982,cats,somatosensory evoked potentials
+600,10.1227/00006123-198604000-00006,"Wallace, Tator",1986,rats,spinal cord blood flow
+601,10.1227/00006123-198610000-00001,"Wallace, Tator",1986,rats,inclined plane test
+602,10.1242/jeb.035162,Cho et al.,2010,guinea pig,somatosensory evoked potentials
+603,10.1038/s41598-017-14765-3,Zadeh-Ardabili et al.,2017,rats,BBB
+604,10.1016/j.jocn.2008.04.024,Gok et al.,2009,rats,BBB
+605,10.1016/j.jocn.2008.04.024,Gok et al.,2009,rats,inclined plane test
+606,10.1016/j.jocn.2008.04.024,Gok et al.,2009,rats,BBB
+607,10.1016/j.jocn.2008.04.024,Gok et al.,2009,rats,inclined plane test
+608,10.1016/j.intimp.2019.105726,Khajoueinejad et al.,2019,rats,BBB
+609,10.1016/j.expneurol.2012.09.015,Lim et al.,2013,mice,BMS
+610,10.1016/j.expneurol.2010.11.016,Popovich et al.,2012,rats,inclined plane test
+611,10.1016/j.expneurol.2010.11.016,Popovich et al.,2012,rats,rearing
+612,10.1016/j.expneurol.2010.11.016,Popovich et al.,2012,rats,rearing
+613,10.1016/j.expneurol.2010.11.016,Popovich et al.,2012,rats,inclined plane test
+614,10.1016/j.expneurol.2010.11.016,Popovich et al.,2012,rats,rearing
+615,10.1016/j.expneurol.2010.11.016,Popovich et al.,2012,rats,BBB
+616,10.1371/journal.pone.0235232,"Pukos, McTigue",2020,mice,BMS
+617,10.1371/journal.pone.0235232,"Pukos, McTigue",2020,mice,ladder walk test
+618,10.1371/journal.pone.0235232,"Pukos, McTigue",2020,mice,locomotor (other)
+619,10.1016/j.neuroscience.2011.09.058,Durham-Lee et al.,2012,rats,BBB
+620,10.1016/S0090-3019(96)00200-5,Perez-Espejo et al.,1996,rats,inclined plane test
+621,10.1016/S0090-3019(96)00200-5,Perez-Espejo et al.,1996,rats,toe spread test
+622,10.1016/S0090-3019(96)00200-5,Perez-Espejo et al.,1996,rats,Tarlov scale
+623,10.1016/S0090-3019(96)00200-5,Perez-Espejo et al.,1996,rats,somatosensory evoked potentials
+624,10.1016/j.expneurol.2017.03.021,Patel et al.,2017,mice,BMS
+625,10.1016/j.expneurol.2017.03.021,Patel et al.,2017,mice,grid walking test
+626,10.1523/jneurosci.22-16-07111.2002,Nash et al.,2002,rats,reaching or retrieval
+627,10.1016/S0006-8993(00)02025-4,Lankhorst et al.,2000,rats,BBB
+628,10.1016/S0006-8993(00)02025-4,Lankhorst et al.,2000,rats,motor evoked potentials
+629,10.1016/j.brainresbull.2010.07.005,Liu et al.,2010,rats,electrophysiology (other)
+630,10.1016/j.jfma.2019.11.009,Yang et al.,2020,rats,BBB
+631,10.1016/j.jfma.2019.11.009,Yang et al.,2020,rats,inclined plane test
+632,10.1016/j.jfma.2019.11.009,Yang et al.,2020,rats,toe spread test
+633,10.1016/j.jfma.2019.11.009,Yang et al.,2020,rats,hindfoot bar grab test
+634,10.1111/j.1471-4159.2006.04354.x,Pannu et al.,2007,rats,BBB
+635,10.1016/j.expneurol.2009.11.006,Mann et al.,2010,rats,BBB
+636,10.1016/j.expneurol.2009.11.006,Mann et al.,2010,rats,mechanical reactivity
+637,10.1016/j.expneurol.2009.11.006,Mann et al.,2010,rats,BBB
+638,10.1016/j.expneurol.2009.11.006,Mann et al.,2010,rats,ladder walk test
+639,10.1016/j.expneurol.2009.11.006,Mann et al.,2010,rats,mechanical reactivity
+640,10.1523/JNEUROSCI.5539-05.2006,King et al.,2006,rats,BBB
+641,10.1523/JNEUROSCI.5539-05.2006,King et al.,2006,rats,beam walk test
+642,10.1523/JNEUROSCI.5539-05.2006,King et al.,2006,rats,ladder walk test
+643,10.1523/JNEUROSCI.5539-05.2006,King et al.,2006,rats,BBB
+644,10.1523/JNEUROSCI.5539-05.2006,King et al.,2006,rats,beam walk test
+645,10.1523/JNEUROSCI.5539-05.2006,King et al.,2006,rats,ladder walk test
+646,10.1097/00007632-200004010-00003,Fujimoto et al.,2000,rats,Tarlov scale
+647,10.1097/00007632-200004010-00003,Fujimoto et al.,2000,rats,inclined plane test
+648,10.1097/00007632-200004010-00003,Fujimoto et al.,2000,rats,gait analysis
+649,10.1590/1414-431X20132322,Schiaveto-de-Souza et al.,2013,rats,locomotor (other)
+650,10.1590/1414-431X20132322,Schiaveto-de-Souza et al.,2013,rats,trunk muscle activity
+651,10.1590/1414-431X20132322,Schiaveto-de-Souza et al.,2013,rats,BBB
+652,10.1590/1414-431X20132322,Schiaveto-de-Souza et al.,2013,rats,inclined plane test
+653,10.1016/j.phymed.2013.07.013,Karami et al.,2013,rats,BBB
+654,10.1016/j.phymed.2013.07.013,Karami et al.,2013,rats,mechanical reactivity
+655,10.1016/j.phymed.2013.07.013,Karami et al.,2013,rats,thermal reactivity
+656,10.1177/1536012120909199,Tan et al.,2020,rats,BBB
+657,10.4103/1673-5374.155440,Wang et al.,2015,rats,BBB
+658,10.4103/1673-5374.155440,Wang et al.,2015,rats,Tarlov scale
+659,10.4103/1673-5374.155440,Wang et al.,2015,rats,inclined plane test
+660,10.4103/1673-5374.155440,Wang et al.,2015,rats,somatosensory evoked potentials
+661,10.4103/1673-5374.155440,Wang et al.,2015,rats,motor evoked potentials
+662,10.2174/1570180816666190731112158,Zhang et al.,2020,rats,BBB
+663,10.1038/sc.2008.154,Yates et al.,2009,rats,electrophysiology (other)
+664,10.1016/0891-5849(89)90067-1,Iwasa et al.,1989,rats,Tarlov scale
+665,10.1016/0891-5849(89)90067-1,Iwasa et al.,1989,rats,spinal cord evoked potentials
+666,10.1016/0891-5849(89)90067-1,Iwasa et al.,1989,rats,spinal cord blood flow
+667,10.1089/neu.2017.5329,Sengelaub et al.,2018,rats,BBB
+668,10.1089/neu.2017.5329,Sengelaub et al.,2018,rats,micturition
+669,10.1089/neu.2017.5329,Sengelaub et al.,2018,rats,BBB
+670,10.1089/neu.2017.5329,Sengelaub et al.,2018,rats,micturition
+671,10.1089/neu.2017.5329,Sengelaub et al.,2018,rats,BBB
+672,10.1089/neu.2017.5329,Sengelaub et al.,2018,rats,micturition
+673,10.1016/j.expneurol.2014.04.026,Patel et al.,2014,rats,BBB
+674,10.1016/j.expneurol.2014.04.026,Patel et al.,2014,rats,gait analysis
+675,10.1016/j.neuroscience.2016.07.023,Osuna-Carrasco et al.,2016,rats,gait analysis
+676,10.25259/SNI-73-2019,Ren et al.,2019,dogs,BBB
+677,10.3171/spi.2005.3.1.0053,Kaptanoglu et al.,2005,rats,inclined plane test
+678,10.3171/spi.2005.3.1.0053,Kaptanoglu et al.,2005,rats,inclined plane test
+679,https://e-century.us/files/ijcem/9/2/ijcem0017202.pdf,Xing et al,2016,rats,BBB
+680,https://e-century.us/files/ijcem/9/2/ijcem0017202.pdf,Xing et al,2016,rats,inclined plane test
+681,https://e-century.us/files/ijcem/9/2/ijcem0017202.pdf,Xing et al,2016,rats,thermal reactivity
+682,https://e-century.us/files/ijcem/9/2/ijcem0017202.pdf,Xing et al,2016,rats,mechanical reactivity
+683,10.1089/neu.2000.17.773,Mu et al,2000,rats,BBB
+684,10.1016/S0003-4975(00)02546-7,Kazama et al,2001,rabbit,Tarlov scale
+685,10.1016/j.freeradbiomed.2007.05.012,Genovese et al,2007,mice,BBB
+686,10.3760/cma.j.issn.0376-2491.2013.47.020,Pan et al,2013,rats,BBB
+687,10.1016/j.expneurol.2009.07.030,Pereira et al,2009,rats,BBB
+688,10.1016/j.expneurol.2009.07.030,Pereira et al,2009,rats,inclined plane test
+689,10.1016/j.expneurol.2009.07.030,Pereira et al,2009,rats,beam walk test
+690,10.1016/j.expneurol.2009.07.030,Pereira et al,2009,rats,ladder walk test
+691,10.1016/j.expneurol.2009.07.030,Pereira et al,2009,rats,gait analysis
+692,10.1016/j.expneurol.2009.07.030,Pereira et al,2009,rats,gait analysis
+693,10.1002/jnr.21265,Cain et al,2007,rats,BBB
+694,10.1002/jnr.21265,Cain et al,2007,rats,locomotor (other)
+695,http://www.annclinlabsci.org/content/49/1/105.long,Liang et al,2019,rats,BBB
+696,http://www.annclinlabsci.org/content/49/1/105.long,Liang et al,2019,rats,BBB
+697,10.1111/jnc.13382,Gao et al,2016,rats,BBB
+698,10.1016/j.neulet.2012.05.071,Han et al,2012,rats,BBB
+699,10.1016/j.neulet.2012.05.071,Han et al,2012,rats,inclined plane test
+700,10.1016/j.neulet.2010.09.007,Han et al,2011,rats,BBB
+701,10.1016/j.neulet.2010.09.007,Han et al,2011,rats,inclined plane test
+702,10.1016/j.neulet.2010.09.007,Han et al,2011,rats,motor evoked potentials
+703,10.1016/j.neulet.2010.09.007,Han et al,2011,rats,somatosensory evoked potentials
+704,10.1111/jcmm.15501,Han et al,2020,rats,BBB
+705,10.1111/jcmm.15501,Han et al,2020,rats,gait analysis
+706,10.3969/j.issn.2095-4344.2016.05.006,He et al,2016,rats,BBB
+707,10.3969/j.issn.2095-4344.2016.05.006,He et al,2016,rats,inclined plane test
+708,10.3969/j.issn.2095-4344.2016.05.006,He et al,2016,rats,motor evoked potentials
+709,10.3969/j.issn.2095-4344.2016.05.006,He et al,2016,rats,somatosensory evoked potentials
+710,10.1016/j.expneurol.2008.07.020,Holmberg et al,2008,rats,BBB
+711,10.4103/1673-5374.241473,Zhang et al,2018,rats,BBB
+712,10.1016/j.neuron.2016.09.026,Tedeshi et al,2016,mice,mechanical reactivity
+713,10.1016/j.neuron.2016.09.026,Tedeshi et al,2016,mice,electrophysiology (other)
+714,10.5115/acb.2017.50.3.207,Kim et al,2017,rats,BBB
+715,10.5137/1019-5149.JTN.5193-11.1,Sanli et al,2012,rats,inclined plane test
+716,10.5137/1019-5149.JTN.5193-11.1,Sanli et al,2012,rats,Tarlov scale
+717,10.5812/ircmj.98995,Salimi et al,2020,rats,BBB
+718,10.5812/ircmj.98995,Salimi et al,2020,rats,BBB
+719,10.5812/ircmj.98995,Salimi et al,2020,rats,BBB
+720,10.1097/BRS.0000000000002629,Ni et al,2018,rats,BBB
+721,https://medcentral.net/doi/epdf/10.5555/cmj.0366-6999.111.05.p443.01,Xiao Jianru et al,1998,cats,Tarlov scale
+722,10.3171/jns.1995.83.1.0105,Baffour et al,1995,rats,Gale scale
+723,10.18632/oncotarget.20649,Qi et al,2017,rats,inclined plane test
+724,10.18632/oncotarget.20649,Qi et al,2017,rats,Tarlov scale
+725,10.1089/089771504322972086,Yune et al,2004,rats,BBB
+726,10.5137/1019-5149.JTN.8131-13.1,Nacar et al,2014,rats,Tarlov scale
+727,10.5137/1019-5149.JTN.8131-13.1,Nacar et al,2014,rats,inclined plane test
+728,10.5137/1019-5149.JTN.8131-13.1,Nacar et al,2014,rats,Tarlov scale
+729,10.5137/1019-5149.JTN.8131-13.1,Nacar et al,2014,rats,inclined plane test
+730,10.1097/NEN.0b013e3181a72605,Baptiste et al,2009,rats,BBB
+731,10.1097/NEN.0b013e3181a72605,Baptiste et al,2009,rats,inclined plane test
+732,10.1016/j.brainres.2005.08.057,Mallei et al,2005,rats,BBB
+733,10.1006/exnr.1998.6974,Madsen et al,1998,rats,inclined plane test
+734,10.1006/exnr.1998.6974,Madsen et al,1998,rats,Tarlov scale
+735,10.1006/exnr.1998.6974,Madsen et al,1998,rats,BBB
+736,10.1089/neu.2015.4111,Colón et al,2016,rats,BBB
+737,10.1089/neu.2015.4111,Colón et al,2016,rats,grid walking test
+738,10.1089/neu.2015.4111,Colón et al,2016,rats,beam walk test
+739,10.1016/j.brainres.2014.03.002,Mosquera et al,2014,rats,BBB
+740,10.1016/j.brainres.2014.03.002,Mosquera et al,2014,rats,BBB
+741,10.1111/j.1471-4159.2009.06077.x,Tian et al,2009,rats,BBB
+742,10.1016/j.cell.2020.03.037,Kitchen et al,2020,rats,ladder walk test
+743,10.1016/j.cell.2020.03.037,Kitchen et al,2020,rats,mechanical reactivity
+744,10.1002/jcb.27361,Namjoo et al,2018,rats,BBB
+745,10.1242/jeb.205.1.1,Borgens et al,2002,guinea pig,somatosensory evoked potentials
+746,10.1242/jeb.205.1.1,Borgens et al,2002,guinea pig,mechanical reactivity
+747,10.3233/RNN-1991-3504,Hao et al,1991,rats,mechanical reactivity
+748,10.3233/RNN-1991-3504,Hao et al,1991,rats,mechanical reactivity
+749,10.22074/cellj.2016.4868,Ruhollah Hosseini et al,2017,rats,BBB
+750,10.22074/cellj.2016.4868,Ruhollah Hosseini et al,2017,rats,thermal reactivity
+751,10.22074/cellj.2016.4868,Ruhollah Hosseini et al,2017,rats,electrophysiology (other)
+752,10.1016/j.jphotobiol.2018.09.022,Pedram et al,2018,rats,BBB
+753,http://nopr.niscair.res.in/bitstream/123456789/23435/1/IJEB%2042(5)%20476-480.pdf,Sharma et al,2004,rats,locomotor (other)
+754,http://nopr.niscair.res.in/bitstream/123456789/23435/1/IJEB%2042(5)%20476-480.pdf,Sharma et al,2004,rats,locomotor (other)
+755,10.1089/neu.2013.3108,Guptarak et al,2014,rats,BBB
+756,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4876300/pdf/IJMS-41-217.pdf,Kermani et al,2016,rats,BBB
+757,10.5114/ninp.2013.36207,Sayin et al,2013,rats,BBB
+758,10.5114/ninp.2013.36207,Sayin et al,2013,rats,inclined plane test
+759,https://www.researchgate.net/profile/Serdar-Kahraman/publication/8979811_Effect_of_mannitol_in_experimental_spinal_cord_injury_An_ultrastructural_and_electrophysiological_study/links/54fc4e8b0cf20700c5e9698d/Effect-of-mannitol-in-experimental-spinal-cord-injury-An-ultrastructural-and-electrophysiological-study.pdf?origin=publication_detail,Baysefer et al,2003,rats,locomotor (other)
+760,https://www.researchgate.net/profile/Serdar-Kahraman/publication/8979811_Effect_of_mannitol_in_experimental_spinal_cord_injury_An_ultrastructural_and_electrophysiological_study/links/54fc4e8b0cf20700c5e9698d/Effect-of-mannitol-in-experimental-spinal-cord-injury-An-ultrastructural-and-electrophysiological-study.pdf?origin=publication_detail,Baysefer et al,2003,rats,somatosensory evoked potentials
+761,https://doi.org/10.1111/j.1600-0404.1994.tb01630.x,Farooque et al,1994,rats,inclined plane test
+762,10.1152/japplphysiol.00428.2006,Golding et al,2006,rats,inclined plane test
+763,10.1152/japplphysiol.00428.2006,Golding et al,2006,rats,BBB
+764,10.1080/01616412.2019.1588507,Abdanipour et al,2019,rats,BBB
+765,10.3340/jkns.2011.49.2.83,Charn et al,2011,rats,BBB
+766,10.3340/jkns.2011.49.2.83,Charn et al,2011,rats,mechanical reactivity
+767,10.1016/j.jocn.2009.05.041,Gul et al,2010,rats,pain
+768,10.1016/j.jocn.2009.05.041,Gul et al,2010,rats,inclined plane test
+769,10.1016/j.jocn.2009.05.041,Gul et al,2010,rats,pain
+770,10.1016/j.jocn.2009.05.041,Gul et al,2010,rats,pain
+771,10.1016/j.jocn.2009.05.041,Gul et al,2010,rats,inclined plane test
+772,10.1016/j.jocn.2009.05.041,Gul et al,2010,rats,pain
+773,10.1097/00000539-200105000-00029,Lang-Lazdunski et al,2001,rats,composite scores
+774,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4152024/pdf/ijcep0007-4617.pdf,Rosado et al,2014,rats,BBB
+775,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4152024/pdf/ijcep0007-4617.pdf,Rosado et al,2014,rats,BBB
+776,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4152024/pdf/ijcep0007-4617.pdf,Rosado et al,2014,rats,BBB
+777,https://www.burakorhanboran.com/wp-content/uploads/2021/07/Erythropoietin.pdf,Boran et al,2005,rats,swimming
+778,https://www.burakorhanboran.com/wp-content/uploads/2021/07/Erythropoietin.pdf,Boran et al,2005,rats,swimming
+779,10.1016/j.bbr.2007.02.035,Hook et al,2007,rats,BBB
+780,10.1016/j.bbr.2007.02.035,Hook et al,2007,rats,ladder walk test
+781,10.1016/j.bbr.2007.02.035,Hook et al,2007,rats,beam walk test
+782,10.1016/j.bbr.2007.02.035,Hook et al,2007,rats,mechanical reactivity
+783,10.1016/j.bbr.2007.02.035,Hook et al,2007,rats,thermal reactivity
+784,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,somatosensory evoked potentials
+785,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,motor evoked potentials
+786,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,locomotor (other)
+787,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,pain
+788,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,inclined plane test
+789,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,somatosensory evoked potentials
+790,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,motor evoked potentials
+791,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,locomotor (other)
+792,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,pain
+793,10.1097/00002517-199112000-00003,Simpson et al,1991,rats,inclined plane test
+794,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5375994/pdf/ajtr0009-1012.pdf,He et al,2017,rats,BBB
+795,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5375994/pdf/ajtr0009-1012.pdf,He et al,2017,rats,gait analysis
+796,10.1016/j.expneurol.2011.09.023,Almad et al,2011,mice,BMS
+797,10.1016/j.expneurol.2007.02.009,McTigue et al,2007,rats,BBB
+798,10.1016/j.expneurol.2007.02.009,McTigue et al,2007,rats,BBB
+799,http://www.e-arm.org/journal/view.php?number=1541,Ko et al,2006,rats,BBB
+800,10.4274/tnd.76588,Çelik et al,2015,rats,inclined plane test
+801,10.4274/tnd.76588,Çelik et al,2015,rats,locomotor (other)
+802,10.1124/jpet.106.113472,Park et al,2007,rats,BBB
+803,10.1124/jpet.106.113472,Park et al,2007,rats,thermal reactivity
+804,http://ppj.phypha.ir/article-1-1182-en.pdf,Afhami et al,2016,rats,locomotor (other)
+805,http://ppj.phypha.ir/article-1-1182-en.pdf,Afhami et al,2016,rats,locomotor (other)
+806,https://www.alliedacademies.org/articles/the-therapeutic-effects-of-etanerceptmethotrexate-combination-on-experimental-spinal-cord-injury.pdf,Gezici et al,2017,rats,locomotor (other)
+807,10.4103/1673-5374.221164,Narin et al,2017,rats,locomotor (other)
+808,10.4103/1673-5374.221164,Narin et al,2017,rats,inclined plane test
+809,10.1371/journal.pone.0033519,Gensel et al,2012,rats,grooming
+810,10.1371/journal.pone.0033519,Gensel et al,2012,rats,BBB
+811,10.1186/s12974-019-1536-y,Yoshizaki et al,2019,mice,BMS
+812,10.1186/s12974-019-1536-y,Yoshizaki et al,2019,mice,gait analysis
+813,10.1186/s12974-019-1536-y,Yoshizaki et al,2019,mice,grid walking test
+814,10.1186/s12974-019-1536-y,Yoshizaki et al,2019,mice,gait analysis
+815,10.1016/0090-3019(87)90054-1,Arias,1987,rats,inclined plane test
+816,10.1016/0090-3019(87)90054-1,Arias,1987,rats,inclined plane test
+817,10.1016/0736-5748(91)90002-4,Naftchi et al,1991,cats,somatosensory evoked potentials
+818,10.1016/0736-5748(91)90002-4,Naftchi et al,1991,cats,composite scores
+819,10.1186/s12929-020-00629-y,Romero-Ramírez et al,2020,rats,BBB
+820,10.1186/s12929-020-00629-y,Romero-Ramírez et al,2020,rats,locomotor (other)
+821,10.1186/s12929-020-00629-y,Romero-Ramírez et al,2020,rats,pain
+822,10.1620/tjem.219.295,Zhang et al,2009,rats,BBB
+823,10.1620/tjem.219.295,Zhang et al,2009,rats,inclined plane test
+824,10.1620/tjem.219.295,Zhang et al,2009,rats,gait analysis
+825,10.1620/tjem.219.295,Zhang et al,2009,rats,somatosensory evoked potentials
+826,10.1097/BRS.0000000000000218,Zhang et al,2014,mice,BMS
+827,10.1097/BRS.0b013e31818786db,Rabinowitz et al,2008,dogs,Tarlov scale
+828,10.1097/BRS.0b013e31818786db,Rabinowitz et al,2008,dogs,somatosensory evoked potentials
+829,10.1016/j.neuroscience.2011.01.012,Penas et al,2011,rats,BBB
+830,10.1016/j.neuroscience.2011.01.012,Penas et al,2011,rats,motor evoked potentials
+831,10.1016/j.neuroscience.2011.01.012,Penas et al,2011,rats,electrophysiology (other)
+832,10.1007/s11064-015-1618-x,Chu et al,2015,rats,BBB
+833,10.1111/j.1471-4159.2012.07731.x,Lee et al,2012,rats,BBB
+834,10.1111/j.1471-4159.2012.07731.x,Lee et al,2012,rats,grid walking test
+835,10.1111/j.1471-4159.2012.07731.x,Lee et al,2012,rats,gait analysis
+836,10.1002/jnr.23200,Lu et al,2013,rats,BBB
+837,10.1016/j.expneurol.2011.11.042,Lv et al,2012,rats,BBB
+838,10.1016/j.expneurol.2011.11.042,Lv et al,2012,rats,gait analysis
+839,10.1016/j.brainres.2011.03.040,Lv et al,2011,rats,BBB
+840,10.1016/j.brainres.2011.03.040,Lv et al,2011,rats,beam walk test
+841,10.1016/j.brainres.2011.03.040,Lv et al,2011,rats,gait analysis
+842,10.1007/s12264-013-1355-6,Hao et al,2013,rats,BBB
+843,10.18632/aging.103125,Wang et al,2020,rats,BBB
+844,10.3389/fnmol.2019.00018,Li et al,2019,mice,BMS
+845,10.1016/j.neulet.2020.135263,Lin et al,2020,mice,BMS
+846,10.1016/j.lfs.2020.117351,Li et al,2020,mice,BMS
+847,10.1111/cns.13460,Lin et al,2020,mice,BMS
