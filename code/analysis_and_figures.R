@@ -7,6 +7,7 @@
 
 # Load data
 
+setwd('/Users/blucie/Desktop/git-repos/SCI-drug-review-publication')
 raw_data_review <- read.csv('./data/data-extracted-20230818.csv')
 
 ################################################################################
@@ -32,6 +33,9 @@ library(ggpubr)
 library(tidyverse)
 library(ggstats)
 library(svglite)
+library("writexl")
+library(reshape2)
+library(naniar)
 
 ################################################################################
 # Functions
@@ -176,7 +180,7 @@ drugs_list <- data.frame(unclass(table(included_review$Drug.name.harmonized)))
 count_drugs_comb <- dplyr::filter(included_review, grepl('+', Drug.name.harmonized, fixed = TRUE)) %>% dplyr::count(Drug.name.harmonized)
 print(paste('Number of drug combination tested:', dim(count_drugs_comb)[1]))
 
-drugs_interest <- read.csv('./data/drugs-of-interest-0205.csv')
+drugs_interest <- read.csv('./data/drugs-of-interest-20230502.csv')
 drugs_interest_tested <- drugs_interest %>%
   filter(Was.this.drug.tested.in.any.of.the.papers.extracted...binary..1.yes. == 1)
 name_drugs_interest_tested <- drugs_interest_tested$n
@@ -218,7 +222,7 @@ barplot_years <- ggplot(data = count_year_included,
         legend.text = element_text(color="black", size=10, family = 'Avenir'),
         legend.title = element_text(color="black", size=12, family = 'Avenir'))
 barplot_years
-ggsave("./figures/SuppFigure1/SupplementaryFigure1A.svg", barplot_years, width = 7, height=5, dpi=300, units = "in")
+#ggsave("./figures/SuppFigure1/SupplementaryFigure1A.svg", barplot_years, width = 7, height=5, dpi=300, units = "in")
 
 
 # Number of unique publications over time coloured by species
@@ -240,7 +244,7 @@ barplot_years_species <- ggplot(data = count_year_included,
         legend.text = element_text(color="black", size=10, family = 'Avenir'),
         legend.title = element_text(color="black", size=12, family = 'Avenir'))
 barplot_years_species
-ggsave("./figures/SuppFigure1/SupplementaryFigure1B.svg", barplot_years_species, width = 7, height=5, dpi=300, units = "in")
+#ggsave("./figures/SuppFigure1/SupplementaryFigure1B.svg", barplot_years_species, width = 7, height=5, dpi=300, units = "in")
 
 # Number of unique publications over time coloured by sex
 count_year_included_sex <- included_review_animals %>% dplyr::count(Year, Sex)
@@ -265,7 +269,7 @@ barplot_years_sex <- ggplot(data = count_year_included_sex,
         legend.text = element_text(color="black", size=10, family = 'Avenir'),
         legend.title = element_text(color="black", size=12, family = 'Avenir'))
 barplot_years_sex
-ggsave("./figures/SuppFigure1/SupplementaryFigure1C.svg", barplot_years_sex, width = 7, height=5, dpi=300, units = "in")
+#ggsave("./figures/SuppFigure1/SupplementaryFigure1C.svg", barplot_years_sex, width = 7, height=5, dpi=300, units = "in")
 
 barplot_years_sex_prop <- ggplot(data = count_year_included_sex, 
                                  aes(x = Year, fill = factor(Sex))) +
@@ -866,7 +870,7 @@ balloon_mixed
 ggsave(file="./figures/SuppFigure2/SuppFigure2.svg", plot=balloon_mixed, width=10, height=9, dpi=300, units = "in")
 
 ################################################################################
-## Funnel chert
+## Funnel chart
 
 # Number of experiments
 dim(included_review_animals)[1]
@@ -922,3 +926,305 @@ harmonised_mixed_effects <- function(data){
 included_review_positive <- included_review_copy %>%
   filter(Drug.effect.on.functional.assessment %in% c('positive effect', 'mixed', 'negative effect'))
 length(unique(included_review_positive$Drug.name.harmonized))
+
+
+
+################################################################################
+# Figure - Risk of bias assessment (animals)
+
+names(included_review_animals)
+
+## Step 1: determine the subcategories for each variable
+### Species
+table(included_review_animals$Species, useNA = 'always') # all experiments have at least the species names
+table(included_review_animals$Species.information, useNA = 'always') # 20 experiments with no info on subspecies --> unclear risk of bias
+
+### Sample size
+table(included_review_animals$Count..n, useNA = 'always') # n = 5 "Not reported" --> high risk of bias
+# bounded or range --> unclear risk of bias
+# should we go more in details with the number of exclusion/deaths? and/or split between control and treatment group?
+
+### Sex
+table(included_review_animals$Sex, useNA = 'always') # n = 61 "not reported" --> high risk of bias
+table(included_review_animals$Sex.....male., useNA = 'always')
+# n = 11 with "mixed" but no percentage given for each --> unclear risk of bias
+
+### Age
+table(included_review_animals$Age..comment., useNA = 'always') # n = 164 "Not reported" --> high risk of bias
+table(included_review_animals$Age..units., useNA = 'always') # n = 341 with no units --> "adult" or "young" only in 341 - 164 = 177 --> unclear risk of bias
+
+## Note: will not include weight because we don't discuss it as part of our results
+
+### Injury level
+table(included_review_animals$Injury.level, useNA = 'always') # n = 5 "Not reported" or " " --> high risk of bias
+# n = 17 + 1 + 1 + 1 = 20. with no precise level "cervical" "mid-thoracic" "lumbar - sacral" "thoracic" --> unclear risk of bias
+
+### Injury mechanism
+table(included_review_animals$Injury.mechanism, useNA = 'always') # all good
+
+### Dose
+table(included_review_animals$Dose..absolute.dose.or.mg.kg., useNA = 'always')
+# n = 1 "high dose" (no precise dose reported) --> unclear risk of bias
+# n = 2 "not reported" --> high risk of bias
+# n = 2 "Not reported" --> high risk of bias
+
+### Time
+table(included_review_animals$Time..minutes.pre.injury..minutes.post.injury., useNA = 'always')
+# n = 1 "not reported explicitly, presumably post-injury" --> high risk of bias
+# n = 8 "Not reported" --> high risk of bias
+# n = 22 "not reported" --> high risk of bias
+# n = 1 "no exact start time specified" --> high risk of bias
+
+### Route
+table(included_review_animals$Route, useNA = 'always')
+# n = 16 "not reported" --> high risk of bias
+
+### Results
+table(included_review_animals$Drug.effect.on.functional.assessment, useNA = 'always')
+# n = 13 "mixed (stats/no stats)" --> unclear risk of bias
+# n = 1 "mixed effects (assessment) + mixed (stats/no stats)" --> unclear risk of bias
+# n = 38 "no stats" --> unclear risk of bias
+# n = 7 "not reported" --> high risk of bias
+
+### Blinding
+table(included_review_animals$Was.observer.blinded., useNA = 'always')
+# n = 117 "not reported" --> unclear risk of bias
+# n = 43 "Not reported" --> unclear risk of bias
+# n = 1 "not reported for any of the assessment" --> unclear risk of bias
+# n = 1 "no (justified in the text)" --> high risk of bias
+# mixed ??
+
+# Select columns needed for plot
+subset_bias <- included_review_animals %>%
+  select(Authors, Year, Drug.name.harmonized, DOI.or.PMID, Drug.s.,
+         Species, Species.information,
+         Count..n,
+         Sex, Sex.....male.,
+         Age..comment., Age..units.,
+         Injury.level, Injury.mechanism, 
+         Dose..absolute.dose.or.mg.kg., Route,
+         Time..minutes.pre.injury..minutes.post.injury.,
+         Drug.effect.on.functional.assessment,
+         Was.observer.blinded.)
+
+# Create the index label making sure that each experiment ends up with a unique label
+subset_bias$Year <- paste(" (", subset_bias$Year, sep="")
+subset_bias$Drug.name.harmonized <- paste(", ", subset_bias$Drug.name.harmonized, ")", sep="")
+subset_bias$index <- with(subset_bias, paste(Authors, Year, Drug.name.harmonized, sep=""))
+subset_bias <- subset_bias[, !(names(subset_bias) %in% c('Year', 'Drug.name.harmonized', 'Authors'))]
+
+index_table <- as.data.frame(table(subset_bias$index))
+
+for (i in c(1:dim(subset_bias)[1])){
+  temp_freq <- index_table %>% filter(Var1 == subset_bias$index[i])
+  if (temp_freq$Freq > 1){
+    print(i)
+    subset_bias$index[i] <- paste(subset_bias$index[i], subset_bias$Species[i], sep=" - ")
+  }
+}
+
+index_table <- as.data.frame(table(subset_bias$index))
+
+for (i in c(1:dim(subset_bias)[1])){
+  temp_freq <- index_table %>% filter(Var1 == subset_bias$index[i])
+  if (temp_freq$Freq > 1){
+    print(i)
+    subset_bias$index[i] <- paste(subset_bias$index[i], subset_bias$DOI.or.PMID[i], sep=" - ")
+  }
+}
+
+table(table(subset_bias$index))
+
+index_table <- as.data.frame(table(subset_bias$index))
+
+for (i in c(1:dim(subset_bias)[1])){
+  temp_freq <- index_table %>% filter(Var1 == subset_bias$index[i])
+  if (temp_freq$Freq > 1){
+    print(i)
+    subset_bias$index[i] <- paste(subset_bias$index[i], subset_bias$Drug.s.[i], sep=" - ")
+  }
+}
+
+table(table(subset_bias$index))
+
+subset_bias <- subset_bias[, !(names(subset_bias) %in% c('Drug.s.', 'DOI.or.PMID'))]
+
+# Transform the data to count the risk of bias for each experiment
+
+# Criteria mentioned above
+species_flag1 <- c("Not reported")
+count_flag1 <- c(">", "-")
+count_flag2 <- c("Not reported")
+sex_flag2 <- c("not reported")
+age_flag2 <- c("Not reported")
+level_flag2 <- c("Not reported", " ")
+level_flag1 <- c("cervical", "mid-thoracic", "lumbar - sacral", "thoracic")
+dose_flag2 <- c("Not reported", "not reported")
+dose_flag1 <- c('high dose')
+time_flag2 <- c("not reported explicitly, presumably post-injury", "Not reported",
+                "not reported", "no exact start time specified")
+route_flag2 <- c("not reported")
+results_flag2 <- c("not reported")
+results_flag1 <- c("mixed (stats/no stats)", "mixed effects (assessment) + mixed (stats/no stats)", "no stats")
+blinding_flag1 <- c("not reported", "Not reported", "not reported for any of the assessment")
+blinding_flag2 <- c("no (justified in the text)")
+
+# Transform data
+subset_bias <- subset_bias %>%
+  mutate(species.bias  = case_when(
+    str_detect(Species.information, str_c('\\b', species_flag1, '\\b', collapse = '|')) ~ 1, 
+    .default = 0)) %>%
+  mutate(count.bias  = case_when(
+    str_detect(Count..n, str_c(count_flag1, collapse = '|')) ~ 1, 
+    str_detect(Count..n, str_c('\\b', count_flag2, '\\b', collapse = '|')) ~ 2, 
+    .default = 0)) %>%
+  mutate(sex.bias  = case_when(
+    str_detect(Sex, str_c('\\b', sex_flag2, '\\b', collapse = '|')) ~ 2, 
+    (Sex.....male. %in% c('', 'not reported', 'Not reported') & Sex == 'mixed') ~ 1,
+    .default = 0))  %>%
+  mutate(age.bias  = case_when(
+    str_detect(Age..comment., str_c('\\b', age_flag2, '\\b', collapse = '|')) ~ 2, 
+    (Age..comment. %in% c('Adult', 'Young') & Age..units. == '')  ~ 1, 
+    .default = 0)) %>%
+  mutate(level.bias  = case_when(
+    str_detect(Injury.level, str_c('\\b', level_flag1, '\\b', collapse = '|')) ~ 1, 
+    str_detect(Injury.level, str_c('\\b', level_flag2, '\\b', collapse = '|')) ~ 2, 
+    .default = 0))  %>%
+  mutate(dose.bias  = case_when(
+    str_detect(Dose..absolute.dose.or.mg.kg., str_c('\\b', dose_flag1, '\\b', collapse = '|')) ~ 1, 
+    str_detect(Dose..absolute.dose.or.mg.kg., str_c('\\b', dose_flag2, '\\b', collapse = '|')) ~ 2, 
+    .default = 0))  %>%
+  mutate(time.bias  = case_when(
+    str_detect(Time..minutes.pre.injury..minutes.post.injury., str_c('\\b', time_flag2, '\\b', collapse = '|')) ~ 2,
+    .default = 0)) %>%
+  mutate(route.bias  = case_when(
+    str_detect(Route, str_c('\\b', route_flag2, '\\b', collapse = '|')) ~ 2,
+    .default = 0)) %>%
+  mutate(results.bias  = case_when(
+    str_detect(Drug.effect.on.functional.assessment, str_c('\\b', results_flag1, '\\b', collapse = '|')) ~ 1, 
+    str_detect(Drug.effect.on.functional.assessment, str_c('\\b', results_flag2, '\\b', collapse = '|')) ~ 2, 
+    .default = 0)) %>%
+  mutate(blinding.bias  = case_when(
+    str_detect(Was.observer.blinded., str_c('\\b', blinding_flag1, '\\b', collapse = '|')) ~ 1, 
+    str_detect(Was.observer.blinded., str_c('\\b', blinding_flag2, '\\b', collapse = '|')) ~ 2, 
+    .default = 0)) 
+
+# Select only the newly transformed data
+subset_bias_binary <- subset_bias %>% select(
+  index, species.bias, count.bias, sex.bias, age.bias, level.bias,
+  dose.bias, time.bias, route.bias, results.bias, blinding.bias
+)
+
+# Compute the total risk of bias score + make catgories
+subset_bias_binary$sum <- rowSums(subset_bias_binary[,2:dim(subset_bias_binary)[2]])
+subset_bias_binary$index <- fct_reorder(subset_bias_binary$index, subset_bias_binary$sum, min)
+#write_xlsx(subset_bias_binary, "tables/TableS7.xlsx")
+subset_bias_binary <- subset_bias_binary %>%
+  mutate(cat_bias  = case_when(
+    sum == 0 ~ '0',
+    sum == 1 ~ '1',
+    sum  == 2 ~ '2',
+    sum  == 3 ~ '3',
+    sum  == 4 ~ '4',
+    sum  == 5 ~ '5',
+    sum %in% c(6:max(subset_bias_binary$sum)) ~ '>=6'
+    ))
+
+# Remove the sum column for viusalisation
+subset_bias_binary <- subset_bias_binary[, !(names(subset_bias_binary) %in% 
+                                               c('sum'))]
+
+# Transform data to long format
+subset_bias_binary_long <- melt(subset_bias_binary, 
+                                id.vars=c("index", 'cat_bias'))
+
+# Re-order factor according in descending of bias observed across experiments
+subset_bias_binary_long$variable <- factor(subset_bias_binary_long$variable, 
+                                           levels = c("age.bias", "blinding.bias", 
+                                                      "sex.bias", "count.bias",
+                                                      "results.bias", "time.bias", 
+                                                      "level.bias", 'route.bias', 
+                                                      'species.bias', 'dose.bias'))
+
+# Plot heatmap of risk of bias for each category in the most biased experiments
+# The process can be repeated for the other categories
+ind_risk_bias <- ggplot(subset_bias_binary_long[subset_bias_binary_long$cat_bias == '>=6',], 
+       aes(x=variable, y=index, fill=factor(value))) +
+  geom_tile(aes(width=0.9, height=0.9)) + theme_bw() + 
+  #facet_wrap(. ~ cat_bias, ncol = 1, nrow = 5) +
+  scale_fill_manual(values=c("#98A285", "#EB9E4B", "#690608"),
+                    labels = c("Low risk of bias", "Unclear risk of bias",
+                               'High risk of bias')) + 
+  coord_equal()+
+  labs(x = "Area of bias", 
+       y = "Experiments with total bias score >=6", 
+       fill = "Score")+ 
+  theme_minimal() +
+  theme(axis.title.x = element_text(size = 12, family = 'Avenir', face='bold'),
+        plot.title =  element_text(size = 14, family = 'Avenir', face='bold'),
+        axis.text.x = element_text(color="black", size=10, family = 'Avenir',
+                                   angle = 45, vjust = 1, hjust=1), 
+        axis.text.y = element_text(color="black", size=10, family = 'Avenir'), 
+        axis.title.y  = element_text(color="black", size=12, family = 'Avenir'), 
+        legend.text = element_text(size=10, family = 'Avenir'),
+        legend.title = element_text(size=12, family = 'Avenir'),
+        line = element_line(linewidth = 0.3, linetype = 1),
+        axis.line = element_line(colour = "black", 
+                                 size = 0.5, linetype = "solid"))
+ind_risk_bias
+#ggsave(file="./figures/SuppFigure3/bias-animals-score6+.svg", 
+#       plot=ind_risk_bias)
+
+# Horizontal barplot for proportion of each bias group (low, unclear, high)
+# in each domain
+cat_combined <- ggplot(subset_bias_binary_long, aes(y = variable, fill = factor(value))) +
+  geom_bar(position = "fill") +
+  scale_fill_manual(values=c("#98A285", "#EB9E4B", "#690608"),
+                    labels = c("Low risk of bias", "Unclear risk of bias",
+                               'High risk of bias')) + 
+  labs(x = "Proportion", 
+       y = "Area of bias", 
+       fill = "Score")+
+  scale_x_continuous(name = "Percentage", labels = scales::label_percent(accuracy = 1))+ 
+  theme_minimal() +
+  theme(axis.title.x = element_text(size = 12, family = 'Avenir', face='bold'),
+        plot.title =  element_text(size = 14, family = 'Avenir', face='bold'),
+        axis.text.x = element_text(color="black", size=10, family = 'Avenir',
+                                   angle = 45, vjust = 1, hjust=1), 
+        axis.text.y = element_text(color="black", size=10, family = 'Avenir'), 
+        axis.title.y  = element_text(color="black", size=12, family = 'Avenir'), 
+        legend.position = "none",
+        line = element_line(linewidth = 0.3, linetype = 1),
+        axis.line = element_line(colour = "black", 
+                                 size = 0.5, linetype = "solid"))
+cat_combined
+#ggsave(file="./figures/Figure4/cat_combined_v2.svg", 
+#       width=9, height=11.4, dpi=300, units = "cm",
+#       plot=cat_combined)
+
+# Assess the concomitant presence of bias
+# Using the naniar library origianlly designed for the assessment of missing data
+
+# Remove the categorical variable classifying experiments based on their total 
+# bias score
+subset_bias_binary_nocat <- subset(subset_bias_binary, select = -cat_bias)
+
+# # Replace bias scored as 2 as NA
+# subset_bias_binary_2NA <- replace(subset_bias_binary_nocat, 
+#                                   subset_bias_binary_nocat==2, NA)
+# 
+# gg_miss_upset(subset_bias_binary_2NA)
+# # Replace bias scored as 1 as NA
+# subset_bias_binary_1NA <- replace(subset_bias_binary_nocat, 
+#                                   subset_bias_binary_nocat==1, NA)
+# 
+# gg_miss_upset(subset_bias_binary_1NA)
+
+# Replace any bias (1 or 2) as NA
+subset_bias_binary_no0NA <- replace(subset_bias_binary_nocat, 
+                                  subset_bias_binary_nocat>0, NA)
+
+bias_present_together <- gg_miss_upset(subset_bias_binary_no0NA, 
+                                       nsets = 10, nintersects = 10)
+#ggsave(file="./figures/Figure4/bias_present_together.png", 
+#       plot=bias_present_together)
