@@ -1228,3 +1228,18 @@ bias_present_together <- gg_miss_upset(subset_bias_binary_no0NA,
                                        nsets = 10, nintersects = 10)
 #ggsave(file="./figures/Figure4/bias_present_together.png", 
 #       plot=bias_present_together)
+
+################################################################################
+# Additional analyses for the RoB of animals studies based on SYRCLE tool
+
+rob_animals <- read.csv('./data/data-extracted-20240708.csv')
+
+table(rob_animals$Sequence.generation)/464
+table(rob_animals$Baseline.characteristics)/464
+table(rob_animals$Allocation.concealment)/464
+table(rob_animals$Random.housing)/464
+table(rob_animals$Blinding.drug)/464
+table(rob_animals$Random.outcome.assessment)/464
+table(rob_animals$Blinding.outcome)/464
+table(rob_animals$Incomplete.outcome.data)/464
+table(rob_animals$Selective.outcome.reporting)/464
